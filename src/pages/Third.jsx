@@ -1,9 +1,9 @@
+import ScrollFloat from '../component/title'
 import Gip from '../assets/gip.jpg'
 import Inspic from '../assets/inspic.jpg'
 import Prof from '../assets/prof.jpg'
 import gradpic from '../assets/gradpic.jpg'
 import InfiniteMenu from "../component/InfiniteMenu";
-
 import Juls1 from '../assets/img/Juls (1).jpg'
 import Juls2 from '../assets/img/Juls (2).jpg'
 import Juls3 from '../assets/img/Juls (3).jpg'
@@ -191,6 +191,17 @@ function Third(props) {
 
     return (
         <div style={{ height: "600px", position: "relative" }}>
+            <div className='text-center'>
+                    <ScrollFloat
+                            animationDuration={1}
+                            ease='back.inOut(2)'
+                            scrollStart='center bottom+=50%'
+                            scrollEnd='bottom bottom-=40%'
+                            stagger={0.03}
+                            >
+                            My Hobbies and Interest
+                        </ScrollFloat>
+                    </div>
             <InfiniteMenu
                 items={items}
                 scale={1}

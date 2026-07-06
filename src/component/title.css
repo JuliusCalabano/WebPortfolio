@@ -3,6 +3,7 @@
 }
 
 .scroll-float-text {
+  color: rgb(3, 3, 90);
   display: inline-block;
   font-size: clamp(1.6rem, 8vw, 5rem);
   font-weight: 900;
