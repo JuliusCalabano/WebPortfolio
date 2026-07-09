@@ -11,7 +11,7 @@
     import Quiz from '../assets/quiz.png';
     import Attendance from '../assets/Attendance.png';
     import Enrollment from '../assets/Enrollment.png';
-    import Btledweb from '../assets/Btledweb.png';
+    import Btledweb from '../assets/BTledweb.png';
     import Gradpic from '../assets/gradpic.jpg'
 
     function Fifth() {
