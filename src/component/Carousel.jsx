@@ -9,31 +9,33 @@ import gradpic from '../assets/gradpic.jpg'
 import Gip from '../assets/gip.jpg'
 import Inspic from '../assets/inspic.jpg'
 import Prof from '../assets/prof.jpg'
+import Slsu from '../assets/slsu.jpg'
+import Aaprint from '../assets/aaprint.png'
 
 const DEFAULT_ITEMS = [
     {
         title: 'College of Sciences, Technologies and Communications, Inc.',
         description: 'SIT Faculty January 2025 - Present',
         id: 1,
-        image : Gip, 
+        image : Inspic, 
     },
   {
         title: 'Southern Luzon State University-College of Allied Medicine, Main Campus',
         description: 'Laboratory Assistant March 2023 - December 2024',
         id: 2,
-        image : gradpic, 
+        image : Slsu, 
     },
     {
         title: 'DOLE Provincial Office, Lucena City',
         description: 'GIP - Encoder Feb. 2023 - March 2023',
         id: 3,
-        image : Inspic, 
+        image : Gip, 
     },
     {
         title: 'AAPrintDiy (Small printing business & Party Needs)',
         description: 'LAYOUT ARTIST November 2022 - Present',
         id: 4,
-        image : Prof, 
+        image : Aaprint, 
     },
     {
         title: 'GULANG-GULANG NATIONAL HIGH SCHOOL DOMOIT EXTENSION',
